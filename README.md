@@ -21,14 +21,14 @@ Etapa 1:
 Etapa 2:
 
 - Nome: Elastic Load Balancing - ELB
-- Foco da ferramenta: O ELB direciona o trafego da aplicação para as máquinas de modo por igual, balanceando nossos recursos
-- Descrição de caso de uso:
+- Foco da ferramenta: Atuar como firewall em nível de instância, controlando o tráfego de entrada e saída por meio de regras que definem quais protocolos, portas e endereços IP podem acessar os recursos da AWS.
+- Descrição de caso de uso: Os Security Groups serão utilizados para restringir o acesso às instâncias EC2, permitindo conexões apenas nas portas necessárias (como HTTP e HTTPS) e limitando acessos administrativos a endereços IP específicos, aumentando a segurança da infraestrutura e reduzindo riscos de acessos não autorizados. Por padrão opera em modo Statefull, permitindo todo o tráfego de saída e negando todo o tráfego de entrada.
 
 Etapa 3:
 
-- Nome:
-- Foco da ferramenta:
-- Descrição de caso de uso:
+- Nome: Network ACLs
+- Foco da ferramenta: Valida a entrada e a saída do dados, gerando uma camada extra de proteção, funciona por comportamento Stateless (não é por que aquele dado entrou que ele vai sair).  
+- Descrição de caso de uso: Verificar os dados que estão entrando e se eles tem a permissão para entrar, na saída ocorre o mesmo processo sendo a entra e a saída a mesma porta. 
 
 ## Conclusão
 
