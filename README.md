@@ -20,23 +20,19 @@ Etapa 1:
 
 Etapa 2:
 
-- Nome: Elastic Load Balancing - ELB
+- Nome: Security Groups
 - Foco da ferramenta: Atuar como firewall em nível de instância, controlando o tráfego de entrada e saída por meio de regras que definem quais protocolos, portas e endereços IP podem acessar os recursos da AWS.
-- Descrição de caso de uso: Os Security Groups serão utilizados para restringir o acesso às instâncias EC2, permitindo conexões apenas nas portas necessárias (como HTTP e HTTPS) e limitando acessos administrativos a endereços IP específicos, aumentando a segurança da infraestrutura e reduzindo riscos de acessos não autorizados. Por padrão opera em modo Statefull, permitindo todo o tráfego de saída e negando todo o tráfego de entrada.
+- Descrição de caso de uso: Os Security Groups serão utilizados para restringir o acesso às instâncias EC2, permitindo conexões apenas nas portas necessárias (como HTTP e HTTPS) e limitando acessos administrativos a endereços IP específicos, aumentando a segurança da infraestrutura e reduzindo riscos de acessos não autorizados. Por padrão, os Security Groups operam de forma stateful e permitem todo o tráfego de saída, enquanto o tráfego de entrada só é autorizado quando explicitamente configurado.
 
 Etapa 3:
 
-- Nome: Network ACLs
-- Foco da ferramenta: Valida a entrada e a saída do dados, gerando uma camada extra de proteção, funciona por comportamento Stateless (não é por que aquele dado entrou que ele vai sair).  
-- Descrição de caso de uso: Verificar os dados que estão entrando e se eles tem a permissão para entrar, na saída ocorre o mesmo processo sendo a entra e a saída a mesma porta. 
+- Nome: 
+- Foco da ferramenta: 
+- Descrição de caso de uso: 
 
 ## Conclusão
 
 A implementação de ferramentas na empresa Abstergo Industries tem como esperado [benefícios das ferramentas]*, o que aumentarÃ¡ a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
-
-## Anexos
-
-[lista de anexos, como manuais, documentos, planilhas, entre outros]
 
 Responsável pelo Projeto:
 
