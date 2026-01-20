@@ -26,13 +26,13 @@ Etapa 2:
 
 Etapa 3:
 
-- Nome: 
-- Foco da ferramenta: 
-- Descrição de caso de uso: 
+- Nome: Amazon S3 Intelligent-Tiering
+- Foco da ferramenta: O foco do S3 Intelligent-Tiering é otimização automática de custos, movendo objetos entre camadas de armazenamento com base no padrão de acesso, sem impacto na performance e sem necessidade de intervenção manual.
+- Descrição de caso de uso: O Amazon S3 Intelligent-Tiering será utilizado para armazenar dados corporativos, como documentos, relatórios, backups e arquivos históricos, cujo padrão de acesso é imprevisível ou varia ao longo do tempo. O serviço monitora automaticamente os acessos aos objetos e os move entre camadas de armazenamento mais econômicas, garantindo redução de custos sem comprometer a disponibilidade ou a performance, eliminando a necessidade de gerenciamento manual do ciclo de vida dos dados.
 
 ## Conclusão
 
-A implementação de ferramentas na empresa Abstergo Industries tem como esperado [benefícios das ferramentas]*, o que aumentarÃ¡ a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado redução de custos desnecessários, ajustes de computação para melhor experiência do usuário, melhor performance de armazenamento e aumento de segurança nas instâncias, aumentando assim a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
 
 Responsável pelo Projeto:
 
